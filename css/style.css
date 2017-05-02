@@ -1,0 +1,300 @@
+body{
+    background: url("../images/bg.jpg") center top no-repeat;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: '宋体';
+}
+li{
+    list-style: none;
+}
+/****************头部******************/
+.header{
+    width: 980px;
+    height: 118px;
+    margin:0 auto;
+    /*background: red;*/
+    border: 1px solid transparent;
+    position: relative;
+}
+/*******食品logo********/
+.header h1,.header a{
+    width: 173px;
+    height: 75px;
+}
+.header a{
+    position: absolute;
+    left: 0 ;
+    top: 20px;
+    display: inline-block;
+}
+.header h1{
+    margin-top:20px;
+    background: url("../images/logo.jpg") no-repeat;
+    text-indent: -10000px;
+}
+/***********导航条***********/
+.nav{
+    width: 980px;
+    height: 60px;
+    margin: 0 auto;
+}
+/*左右导航条圆弧*/
+.nav .nav_left,.nav .nav_right{
+    width: 20px;
+    height: 60px;
+    display: inline-block;
+}
+.nav .nav_right{
+    background: url("../images/nav-right.jpg") no-repeat;
+    float: right;
+}
+.nav .nav_left{
+    background: url("../images/nav-left.jpg") no-repeat;
+    float: left;
+}
+/*导航条内容*/
+.nav ul{
+    width: 940px;
+    height: 60px;
+    float: left;
+    background: url("../images/nav-center.jpg") repeat-x;
+}
+.nav ul li{
+    line-height: 45px;
+    background: url("../images/nav-line.jpg") no-repeat right center;
+    float: left;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.nav ul li:last-child{
+    background: none;
+}
+/****************广告图片******************/
+.banner{
+    width: 980px;
+    height: 382px;
+    margin: 0 auto;
+    background:url("../images/banner.jpg") no-repeat 0 0;
+}
+/****************中部内容******************/
+.content{
+    width: 980px;
+    height: 357px;
+    margin: 0 auto;
+    background: url("../images/con-down-bg.jpg") no-repeat center top;
+    background: #fdfdfe;
+
+}
+/****************中部顶部******************/
+.content .content_top{
+    width: 980px;
+    height: 92px;
+    border-bottom: 1px solid #cccccc;
+}
+.content .content_top ul{
+    overflow: hidden;
+    padding-left: 2px;
+}
+.content .content_top ul li{
+    width: 236px;
+    height: 84px;
+    background: url("../images/con-top-item.jpg") no-repeat;
+    margin-left: 6px;
+    margin-top: 6px;
+    float: left;
+}
+.content .content_top ul li h1{
+    width: 104px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+.content .content_top ul li:nth-child(1) h1{
+    background: url("../images/con-top-spirit.jpg") no-repeat -7px 0;
+}
+.content .content_top ul li:nth-child(2) h1{
+    background: url("../images/con-top-spirit.jpg") no-repeat -5px -30px;
+}
+.content .content_top ul li:nth-child(3) h1{
+    background: url("../images/con-top-spirit.jpg") no-repeat -5px -60px;
+}
+.content .content_top ul li:nth-child(4) h1{
+    background: url("../images/con-top-spirit.jpg") no-repeat 0px -90px;
+}
+.content .content_top ul li p{
+    padding-left: 50px;
+    padding-right: 15px;
+    font-size: 12px;
+    color: #666;
+    line-height: 18px;
+}
+/****************中部中间内容******************/
+.content .content_center{
+    width: 980px;
+    height: 225px;
+    background: url("../images/con-down-bg.jpg") repeat-x;
+}
+/****************主体内容 关于1******************/
+.content .content_center .content_center_left{
+    width: 325px;
+    height: 100%;
+    background: url("../images/con-down-line.jpg") no-repeat right center;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+.content .content_center .content_center_left .content_center_left_top{
+    width: 100%;
+    height: 50px;
+}
+.content .content_center .content_center_left .content_center_left_top h1{
+    width: 185px;
+    height: 38px;
+    float: left;
+    background: url("../images/con-down-about.jpg") no-repeat  ;
+}
+.content .content_center .content_center_left .content_center_left_top span{
+    width: 34px;
+    height: 20px;
+    float: right;
+    background: url("../images/con-down-add.jpg") no-repeat;
+}
+.content_center dl{
+    width: 313px;
+    height: 120px;
+    padding: 0;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.content_center dt{
+    width: 102px;
+    height: 90px;
+    float: left;
+    border: 1px solid #cccccc;
+    text-align: center;
+    padding: 2px 1px 1px 1px;
+    box-sizing: border-box;
+}
+.content_center img{
+    width: 96px;
+    height: 82px;
+    border: 1px solid #cccccc;
+}
+.content_center dd{
+    width: 190px;
+    float: right;
+    font-size: 12px;
+    color: #666666;
+    line-height: 20px;
+}
+.content_center dd a{
+    color: red;
+}
+/****************主体内容 关于2******************/
+.content_center .content_center_center{
+    width: 400px;
+    float: left;
+    background: url("../images/con-down-line.jpg") no-repeat right center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.content_center_center_top{
+    width: 100%;
+    height: 50px;
+}
+.content_center_center_top h1{
+    width: 185px;
+    height: 38px;
+    float: left;
+    background: url("../images/con-down-about.jpg") no-repeat  ;
+}
+.content_center_center_top span{
+    width: 34px;
+    height: 20px;
+    float: right;
+    background: url("../images/con-down-add.jpg") no-repeat;
+}
+.content .content_center .content_center_center ul{
+    width: 100%;
+    height: 116px;
+    margin-top: 5px;
+    text-align: center;
+
+}
+.content .content_center .content_center_center ul li{
+    height: 100%;
+    margin-left: 5px;
+    float: left;
+}
+.content .content_center .content_center_center ul li img{
+    width: 119px;
+    height: 93px;
+}
+.content_center_center p{
+    font-size: 12px;
+}
+/****************主体内容 关于3******************/
+.about3{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 255px;
+    height: 100%;
+    float: left;
+}
+.about3 h1{
+    width: 185px;
+    height: 38px;
+    float: left;
+    background: url("../images/con-down-about.jpg") no-repeat  ;
+}
+.about3 span{
+    width: 34px;
+    height: 20px;
+    float: right;
+    background: url("../images/con-down-add.jpg") no-repeat;
+}
+.about3 p{
+    float: left;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 5px;
+    line-height: 20px;
+}
+/****************主体内容 底部******************/
+.content_foot{
+    width: 980px;
+    height: 34px;
+    font-size: 14px;
+    line-height: 34px;
+    margin-top: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    background: url("../images/sub-nav.jpg") repeat-x;
+}
+/****************网站底部内容******************/
+.foot{
+    height: 88px;
+    background:url("../images/footer-bg.jpg") repeat-x;
+}
+.foot .foot_bottom{
+    width: 980px;
+    height: 88px;
+    margin: 0 auto;
+}
+.foot .foot_bottom p{
+    margin-top: 25px;
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+}
+.foot .foot_bottom a{
+    float: right;
+    margin-top: 20px;
+}

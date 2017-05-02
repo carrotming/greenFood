@@ -1,0 +1,145 @@
+body {
+    background: url("../images/bg2.jpg") no-repeat center top;
+}
+.header{
+    width: 100%;
+}
+.header h1 {
+    display: none;
+}
+.header a{
+    display: none;
+}
+*{
+    box-sizing: border-box;
+}
+
+.nav .nav_left {
+    display: none;
+}
+
+.nav .nav_right {
+    display: none;
+}
+
+.nav {
+    width: 100%;
+}
+.nav ul {
+    width: 100%;
+    font-size: 16px;
+}
+.nav ul li {
+    padding: 0;
+    width: 11.1%;
+    text-align: center;
+}
+
+.banner{
+    width: 100%;
+    background: url(../images/banner.jpg) no-repeat center top;
+}
+
+.content{
+    width: 100%;
+    height: auto;
+}
+.content .content_center{
+    padding: 0 1%;
+}
+.content .content_top{
+    width: 100%;
+    height: auto;
+    padding-right: 0.5%;
+    padding-left: 0.5%
+}
+.content .content_top ul{
+    height: auto;
+    padding-bottom: 5px;
+}
+.content .content_top ul li {
+    width: 48%;
+    margin-left: 1%;
+    border: 1px solid #ccc;
+    background: linear-gradient(180deg,#fefefe,#f0f0f0);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.content .content_top p{
+    float: left;
+}
+.content .content_center{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: none;
+}
+.content .content_center .content_center_left{
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    background: linear-gradient(180deg,#fefefe,#f0f0f0);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+.content_center .content_center_center{
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    background: linear-gradient(180deg,#fefefe,#f0f0f0);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+.foot{
+    width: 98%;
+    height: auto;
+    border: 1px solid #ccc;
+    background: linear-gradient(180deg,#fefefe,#f0f0f0);
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 1%;
+}
+.foot .foot_bottom a img{
+    /*display: none;*/
+}
+.foot .foot_bottom{
+    width: 100%;
+
+}
+
+.about3{
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    background: linear-gradient(180deg,#fefefe,#f0f0f0);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.content_center dl{
+    width: 100%;
+    height: auto;
+}
+.about3 h1{
+    width: 100%;
+}
+.content_center dd{
+    width: 70%;
+    float: left;
+    font-size: 20px;
+    margin-left: 1%;
+}
+.content .content_center .content_center_center ul li{
+    width: 33.3%;
+    height: auto;
+    margin-left: 0;
+}
+.content_foot{
+    display: none;
+}
+

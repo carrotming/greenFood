@@ -1,0 +1,40 @@
+body{
+    background: none;
+}
+.header{
+    background: #57AF0F;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.header::after {
+    content: "绿色食品网";
+    font-size: 20px;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
+.nav ul{
+    background: green;
+    height: auto;
+}
+.nav ul li{
+    width: auto;
+    background: none;
+    padding: 0 10px;
+}
+.banner{
+    height: 200px;
+    background-size: 100% 100%;
+}
+.content .content_top ul li{
+    width: 98%;
+    margin-right: 2%;
+}
+.foot .foot_bottom a img{
+    display: none;
+}
+.content_center dd{
+    font-size: 14px;
+}
